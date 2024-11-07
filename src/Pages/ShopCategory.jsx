@@ -1,3 +1,4 @@
+// ShopCategory.jsx
 import React, { useContext } from 'react';
 import './CSS/ShopCategory.css';
 import { ShopContext } from '../Context/ShopContext';
@@ -13,9 +14,6 @@ const ShopCategory = (props) => {
         <p>
           <span>Showing 1-10</span> out of {all_products.filter(item => item.category === props.category).length} products
         </p>
-        <div className="shopCategory-sort">
-          Sort by <img src="" alt=""/>
-        </div>
       </div>
       <div className="shopcategory-products">
         {all_products.map((item, i) => {
@@ -34,9 +32,6 @@ const ShopCategory = (props) => {
           }
           return null; // Explicitly return null for non-matching items
         })}
-      </div>
-      <div className="shopcategory-loadmore">
-        Explore More
       </div>
     </div>
   );

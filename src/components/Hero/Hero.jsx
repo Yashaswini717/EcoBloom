@@ -8,9 +8,7 @@ const Hero = () => {
         <h2>Daily Essentials</h2>
         <p>Reduce waste in your everyday routine!</p>
       </div>
-      <div className="hero-shop-btn">
-        <div>SHOP SUSTAINABLY</div>
-      </div>
+      
       <div className="hero-right"></div>
     </div>
   );
