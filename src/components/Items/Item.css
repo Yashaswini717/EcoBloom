@@ -6,27 +6,30 @@
 }
 
 .item {
-  width: 350px;               /* Set a fixed width for items */
+  width: 200px;               /* Set a fixed width for items (change to 200px for square) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;        /* Center items in the flex container */
 }
 
-.item p {
-  margin: 6px 0;             /* Add some margin for paragraphs */
+.item h3 {
+  margin: 10px 0;             /* Add some margin for headings */
 }
 
 .item-prices {
   display: flex;              /* Flexbox for prices */
-  gap: 20px;                  /* Space between prices */
+  gap: 10px;                  /* Space between prices */
 }
 
 .item-price-new {
   color: #374151;             /* Dark color for the new price */
-  font-size: 18px;            /* Set font size for the new price */
+  font-size: 16px;            /* Set font size for the new price */
   font-weight: 600;           /* Bold weight for emphasis */
 }
 
 .item-price-old {
   color: #8c8c8c;             /* Grey color for the old price */
-  font-size: 18px;            /* Set font size for the old price */
+  font-size: 16px;            /* Set font size for the old price */
   font-weight: 600;           /* Bold weight for emphasis */
   text-decoration: line-through; /* Strikethrough effect */
 }
@@ -41,5 +44,5 @@
   width: 100%;                /* Ensures the image takes the full width of its container */
   height: 200px;              /* Set a fixed height to maintain rectangle shape */
   object-fit: cover;          /* Ensure the image covers the space without distortion */
-  border-radius: 0;           /* Remove any rounding of corners */
+  border-radius: 10px;        /* Optional: Adds rounded corners */
 }

@@ -4,22 +4,14 @@
     padding: 0; /* Remove padding if any */
 }
 
-/* Navbar styles */
-.navbar {
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove padding if any */
-}
-
 /* Banner styles */
 .shopcategory-banner {
     display: block;
     margin: 0; /* Remove margin to eliminate gap */
     width: 100%; /* Make banner full width */
-    height: 250px; /* Increase height slightly for better visibility */
+    height: 350px; /* Increased height for better visibility */
     object-fit: cover; /* Maintain aspect ratio and cover the area */
 }
-
-
 
 .shopcategory-indexSort {
     display: flex;
