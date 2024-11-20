@@ -1,7 +1,7 @@
 import React from 'react';
 import './DescriptionBox.css';
 
-const DescriptionBox = ({ description }) => { // Accept description as a prop
+const DescriptionBox = ({ description }) => { 
   return (
     <div className='descriptionBox'>
       <div className="descriptionbox-navigator">
@@ -9,7 +9,7 @@ const DescriptionBox = ({ description }) => { // Accept description as a prop
         <div className="descriptionbox-nav-box fade">Reviews (122)</div>
       </div>
       <div className="descriptionbox-description">
-        <p>{description}</p> {/* Display the product description */}
+        <p>{description}</p> 
       </div>
     </div>
   );
